@@ -7,6 +7,7 @@ namespace CarSite
 
     public partial class CarBase : DbContext
     {
+        
         public CarBase()
             : base("name=CarBase")
         {
